@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: white;
+  }
+  
+  .container {
+    margin-left: 25%;
+    max-width: 923px;
+    max-height: 761px;
+    width: 100%;
+    height: 100%;
+    background: rgba(64, 94, 170, 0.24);
+    border-radius: 20px;
+    padding: 25px 30px;
+  }
+  
+  .container .title {
+    position: relative;
+    width: 355px;
+    height: 100px;
+    left: 400px;
+  
+    font-family: "Puritan";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #405eaa;
+  }
+  
+  .container .title::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 30px;
+  }
+  
+  /* 
+      Tabela
+    */
+  
+  table {
+    /** Faz o estilo da tabela inteira. **/
+    background: rgba(64, 94, 170, 0.49);
+    border-radius: 20px; /** Define a borda pontilhada. **/
+    width: 100%;
+    table-layout: auto;
+    font-size: 28px;
+    empty-cells: show;
+  }
+  thead {
+    /** Faz o estilo do cabecalho da tabela**/
+    font-size: 40px;
+    border-radius: 20px;
+  }
+  tr {
+    /** Faz o estilo para as linhas. **/
+    text-align: center; /** Centraliza o conteúdo. **/
+    color: aliceblue;
+  }
+  td {
+    color: black;
+  }
